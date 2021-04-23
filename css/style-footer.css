@@ -19,3 +19,15 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.column1{
+    max-width: 400px;
+}
+
+.column1 h2{
+    font-size: 22px;
+}
+.column1 p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
