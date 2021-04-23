@@ -1,0 +1,16 @@
+footer{
+    position: relative;
+    width: 100%;
+    background-color: #60b4df;
+    color: white;
+    padding-top: 0px;
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+
+}
