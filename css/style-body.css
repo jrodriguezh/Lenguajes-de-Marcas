@@ -85,6 +85,10 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
     float: left;
 }
 
+.cabecera-area{
+    padding: 30px;
+}
+
 
 
 .aside{
@@ -151,5 +155,18 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
     .otras-noticias{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 750px){
+    .noticia-principal{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-principal{
+        width: 100%;
+    }
+    .texto{
+        width: 100%;
     }
 }

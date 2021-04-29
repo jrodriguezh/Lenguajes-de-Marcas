@@ -16,7 +16,7 @@ header{
 }
 
 .container{
-    max-width: 65rem;
+    max-width: 85rem;
     padding: 0 2rem;
     margin: 0 auto;
     display: flex;
@@ -382,3 +382,4 @@ header{
     }
 
 }
+
