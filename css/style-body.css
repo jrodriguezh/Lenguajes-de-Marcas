@@ -85,6 +85,10 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
     float: left;
 }
 
+.cabecera-area{
+    padding: 30px;
+}
+
 
 
 .aside{
