@@ -13,6 +13,9 @@ header{
     top:0px;
     background-color: #60b4df;
     z-index: 1000;
+    height: 80px;
+    align-items: center;
+    padding-top: 15px;
 }
 
 .container{
