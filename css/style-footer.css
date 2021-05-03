@@ -15,6 +15,33 @@ footer{
 
 }
 
+.footer-responsive{
+    display: none;
+    background-color: #60b4df;
+    color: #fff;
+    justify-content: space-between;
+    padding: 10px 40px;
+    height: max-content;
+}
+
+.text{
+    margin-top: 15px;
+}
+.img-responsive{
+    width: 36px;
+    margin-top: 10px;
+}
+.formulario{
+    margin-left: 15px;
+}
+
+.formulario >a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
 .container-body{
     display: flex;
     justify-content: space-between;
@@ -108,4 +135,17 @@ footer{
 .information a{
     text-decoration: none;
     color: #c7c7c7;
+}
+
+@media (max-width: 920px){
+    .footer-responsive{
+        display: flex;
+    }
+
+    .container-footer{
+        display: none;
+    }
+    .container-footer-all{
+        display: none;
+    }
 }
