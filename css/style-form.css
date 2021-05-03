@@ -3,13 +3,13 @@
 }
 
 body {
-    background: rgb(184, 223, 224);
+    background: #3183ac;
     font-family: 'Poppins', sans-serif;
 
 }
 
 .contenedor {
-    max-width: 1170px;
+    
     margin-left: auto;
     margin-right: auto;
 
@@ -21,7 +21,6 @@ body {
 }
 
 .tarjeta {
-    box-shadow: 0 0 20px 0 rgb(105, 168, 179);
     background: rgb(255, 255, 255);
 }
 
@@ -49,7 +48,7 @@ body {
 }
 
 .formulario form button {
-    background: rgb(23, 60, 61);
+    background: #1f5079;
     display: block;
     width: 100px;
     height: 40px;
@@ -84,13 +83,13 @@ textarea:focus~.barra::before {
     width: 0;
     bottom: 0;
     position: absolute;
-    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #69bde7, #6DD5FA, #1f5079);
     transition: 0.3s ease all;
     left: 0%;
 }
 
 .info {
-    background: rgb(23, 60, 61);
+    background: #1f5079;
     color: rgb(255, 255, 255);
 }
 
@@ -143,7 +142,7 @@ a.extra {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
 
     body {
         padding: 0 2em;
