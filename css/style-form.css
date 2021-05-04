@@ -34,6 +34,9 @@ body {
     background: rgb(255, 255, 255);
 
 }
+fieldset{
+    padding: 5px;
+}
 
 
 .formulario form button,
