@@ -13,10 +13,13 @@ header{
     top:0px;
     background-color: #60b4df;
     z-index: 1000;
+    height: 80px;
+    align-items: center;
+    padding-top: 15px;
 }
 
 .container{
-    max-width: 65rem;
+    max-width: 85rem;
     padding: 0 2rem;
     margin: 0 auto;
     display: flex;
@@ -386,3 +389,4 @@ header{
     }
 
 }
+
