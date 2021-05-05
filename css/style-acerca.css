@@ -7,50 +7,34 @@
 
 .presentation{
     margin: 0;
-    overflow-y: scroll;
     overflow-x: hidden;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
 }
 
 .main-us{
     width: 100%;
     text-align:center;
+    padding-top: 30px;
     padding-left: 20px;
     padding-bottom: 0rem;
     font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #146188
+
 }
 
 .under-us{
     text-align:center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #3183ac
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0rem;
 }
 
-/* Por si queremos poner algunas lineas entre las imágenes
-.strip{
-    position: absolute;
-    height: 100vh;
-    background: #fff;
-    width: 0.0625rem;
-    opacity: .3;
-}
- 
-.one{
-    left: 25%;
-}        
-
-.two{
-    left: 50%;
-}
-
-.three{
-    left: 75%;
-}
-*/
 .container-acerca{
     align-items: flex-start;
     display: flex;
@@ -129,7 +113,7 @@
     margin-left: 1rem;
 }
 p{
-    margin-top: -1.875rem;
+    margin-top: 2px;
     margin-left: 1rem;
 }
 
