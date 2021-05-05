@@ -383,10 +383,6 @@ header{
         flex: initial;
         width: 100%;
     }
-    body {
-        font-family: 'Courier New', Courier, monospace;
-        background: #3183ac;
-    }
-
+    
 }
 
