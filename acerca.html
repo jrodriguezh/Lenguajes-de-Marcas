@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de nosotros</title>
-    <link rel="stylesheet" href="css/style-body.css">
-    <link rel="stylesheet" href="css/style-header.css">
-    <link rel="stylesheet" href="css/style-footer.css">
     <link rel="stylesheet" href="css/style-acerca.css">
     <script src="https://kit.fontawesome.com/59095f720c.js" crossorigin="anonymous"></script>
 </head>
-<body>
+
+<main>
     <header>
-        <div class="container">
+
+        <div class="header-container">
             <input type="checkbox" name="" id="check">
 
             <div class="logo-container">
@@ -26,7 +26,7 @@
                     <ul>
                         <li class="nav-link">
                             <a href="index.html">Inicio</a>
-                            
+
                         </li>
                         <li class="nav-link">
                             <a href="#">Áreas de actuación <i class="fas fa-caret-down"></i></a>
@@ -44,7 +44,7 @@
                                                 </li>
                                                 <li class="dropdown-link">
                                                     <a href="subarea3.html">Sociedad</a>
-                                                    
+
                                                 </li>
                                                 <div class="arrow"></div>
                                             </ul>
@@ -55,7 +55,7 @@
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="area3.html">Deportes</a>
-                                        
+
                                     </li>
                                     <div class="arrow"></div>
                                 </ul>
@@ -88,21 +88,81 @@
             </div>
         </div>
     </header>
-    <div class="contenido-acerca">
-        <div class="overlay"></div>
-        <div class="acerca">
-            <div class="presentacion">¿Quienes somos?</div>
-        <div class="espacio"></div>
-        <div class="espacio"></div>
-        <div class="texto">
-            Somos Roberto Ángel Díaz Soto, Álvaro Montes Cerro, Alejandro Ocaña Bravo y Jesús Rodríguez Herránz, alumnos del Instituto Tecnológico EDIX. Expertos en compaginar nuestro día a día y nuestra formación. Así de sencillo y de complejo al mismo tiempo. Detrás: mucha ilusión, mucho trabajo y esfuerzo, mucho aprendizaje, pero también muchas recompensas.
 
+
+
+    <presentation>
+
+        <section class="us-information">
+            <div class="main-us">
+                <h1>Sobre Nosotros</h1>
+            </div>
+            <div class="under-us">
+                <h3>Somos cuatro estudiantes del Grado Superior en Desarrollo de Aplicaciones Multiplataforma en el
+                    Instituto Tecnológico Edix. A través de este proyecto, pretendemos mostrar
+                    nuestras capacidades para el diseño, elaboración y gestión de una página Web, utilizando para ello HTML5 y
+                    el lenguaje de diseño gráfico CSS.
+                    <br>
+                    <br>
+                    A continuación, encontrarás nuestras tarjetas de
+                    presentación, haz click en ellas para ir directamente a cada uno de nuestros perfiles en GitHub:
+                </h3>
+            </div>
+        </section>
+
+            <div>
+                <div class="strip one"></div>
+                <!--Por si queremos poner barras estéticas-->
+                <div class="strip two"></div>
+            <div class="strip three"></div>
         </div>
-        </div>
 
-    </div>
+        <section class="container">
+            <div class="card-grid">
+                <a href="https://github.com/jrodriguezh" class="card">
+                    <div class="card-background" style="background-image: url(/imagenes/jesusphoto.jpg);"></div>
+                    <span class="card-content">
+                        <h3 class="card-heading">Jesus Rodriguez</h3>
+                        <p class="card-category">
+                            Estudiante Edix: Acerca
+                        </p>
+                    </span>
+                </a>
 
-    
+                <a href="https://github.com/Folen8" class="card">
+                    <div class="card-background" style="background-image: url(/imagenes/alejandrophoto.jpg);"></div>
+                    <span class="card-content">
+                        <h3 class="card-heading">Alejandro Ocaña</h3>
+                        <p class="card-category">
+                            Estudiante Edix: Contacto
+                        </p>
+                    </span>
+                </a>
+
+                <a href="https://github.com/aMontesCerro" class="card">
+                    <div class="card-background" style="background-image: url(/imagenes/alvarophoto.jpg);"></div>
+                    <span class="card-content">
+                        <h3 class="card-heading">Alvaro Montes</h3>
+                        <p class="card-category">
+                            Estu. Edix: Inicio
+                        </p>
+                    </span>
+                </a>
+
+                <a href="https://github.com/Robertodiaz-code" class="card">
+                    <div class="card-background" style="background-image: url(/imagenes/robertophoto.jpg);"></div>
+                    <span class="card-content">
+                        <h3 class="card-heading">Roberto Diaz</h3>
+                        <p class="card-category">
+                            Estudiante Edix: Localizacion
+                        </p>
+                    </span>
+                </a>
+
+            </div>
+        </section>
+    </presentation>
+
     <footer>
 
         <div class="container-footer-all">
@@ -185,9 +245,31 @@
                 </div>
             </div>
         </div>
+
+        <div class="footer-responsive">
+            <div class="text">
+                Encuentranos en:
+                <div class="imagenes-responsive">
+                    <img src="imagenes/facebook.png" alt="" class="img-responsive"><a href=""></a></img>
+                    <img src="imagenes/google.png" alt="" class="img-responsive"><a href=""></a></img>
+                    <img src="imagenes/instagram.png" alt="" class="img-responsive"><a href=""></a></img>
+                    <img src="imagenes/linkedin.png" alt="" class="img-responsive"><a href=""></a></img>
+                    <img src="imagenes/pinterest.png" alt="" class="img-responsive"><a href=""></a></img>
+                    <img src="imagenes/twitter.png" alt="" class="img-responsive"><a href=""></a></img>
+                    <img src="imagenes/youtube.png" alt="" class="img-responsive"><a href=""></a></img>
+                </div>
+            </div>
+            
+            <div class="formulario text">
+                O con nuestro <a href="">formulario de contacto</a>
+                <img src="imagenes/formulario.png" alt="" class="img-responsive"><a href=""></a></img>
+            </div>
+        </div>
         
 
         
     </footer>
-</body>
+    
+</main>
+
 </html>
