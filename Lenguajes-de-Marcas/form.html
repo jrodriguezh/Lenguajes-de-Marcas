@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style-header.css">
+    <link rel="stylesheet" href="css/style-form.css">
+    <link rel="stylesheet" href="css/style-footer.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <header>
+            <div class="container">
+                <input type="checkbox" name="" id="check">
+
+                <div class="logo-container">
+                    <h3 class="logo">Nombre<span>Página</span> </h3>
+                </div>
+
+                <div class="nav-btn">
+
+                    <div class="nav-links">
+                        <ul>
+                            <li class="nav-link">
+                                <a href="index.html">Inicio</a>
+
+                            </li>
+                            <li class="nav-link">
+                                <a href="#">Áreas de actuación <i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">Actualidad<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="subarea1.html">Internacional</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="subarea2.html">Nacional</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="subarea3.html">Sociedad</a>
+
+                                                    </li>
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="area2.html">Entretenimiento</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="area3.html">Deportes</a>
+
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-link">
+                                <a href="form.html">Contacto</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="acerca.html">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="localizacion.html">Localizacion</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="log-sign">
+                        <a href="#" class="btn transparent">Log in</a>
+                        <a href="#" class="btn solid">Sign up</a>
+
+
+                    </div>
+                </div>
+                <div class="hamburger-menu-container">
+
+                    <div class="hamburger-menu">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="tarjeta animate__bounceIn ">
+
+            <div class="formulario">
+                <h4>Envienos su noticia:</h4>
+                <form action="procesarPeticion.jsp" method="POST">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <br>
+
+                        <p>
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" name="Nombre" id="nombre" required autofocus><span class="barra"></span>
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="Email" id="email" required><span class="barra"></span>
+                        </p>
+                        <p>
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" name="Telefono" id="telefono"><span class="barra"></span>
+                        </p>
+                        <p>
+                            <label for="fecha">Fecha de nacimiento</label>
+                            <input type="text" name="Fecha" id="fecha" onfocus="(this.type='date')"><span
+                                class="barra"></span>
+                        </p>
+                        <p>
+                            <label for="provincia">Provincia</label>
+                            <select required name="provincia">
+                                <option value="">Elige Provincia</option>
+                                <option value="Álava/Araba">Álava/Araba</option>
+                                <option value="Albacete">Albacete</option>
+                                <option value="Alicante">Alicante</option>
+                                <option value="Almería">Almería</option>
+                                <option value="Asturias">Asturias</option>
+                                <option value="Ávila">Ávila</option>
+                                <option value="Badajoz">Badajoz</option>
+                                <option value="Baleares">Baleares</option>
+                                <option value="Barcelona">Barcelona</option>
+                                <option value="Burgos">Burgos</option>
+                                <option value="Cáceres">Cáceres</option>
+                                <option value="Cádiz">Cádiz</option>
+                                <option value="Cantabria">Cantabria</option>
+                                <option value="Castellón">Castellón</option>
+                                <option value="Ceuta">Ceuta</option>
+                                <option value="Ciudad Real">Ciudad Real</option>
+                                <option value="Córdoba">Córdoba</option>
+                                <option value="Cuenca">Cuenca</option>
+                                <option value="Gerona/Girona">Gerona/Girona</option>
+                                <option value="Granada">Granada</option>
+                                <option value="Guadalajara">Guadalajara</option>
+                                <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                                <option value="Huelva">Huelva</option>
+                                <option value="Huesca">Huesca</option>
+                                <option value="Jaén">Jaén</option>
+                                <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                                <option value="La Rioja">La Rioja</option>
+                                <option value="Las Palmas">Las Palmas</option>
+                                <option value="León">León</option>
+                                <option value="Lérida/Lleida">Lérida/Lleida</option>
+                                <option value="Lugo">Lugo</option>
+                                <option value="Madrid">Madrid</option>
+                                <option value="Málaga">Málaga</option>
+                                <option value="Melilla">Melilla</option>
+                                <option value="Murcia">Murcia</option>
+                                <option value="Navarra">Navarra</option>
+                                <option value="Orense/Ourense">Orense/Ourense</option>
+                                <option value="Palencia">Palencia</option>
+                                <option value="Pontevedra">Pontevedra</option>
+                                <option value="Salamanca">Salamanca</option>
+                                <option value="Segovia">Segovia</option>
+                                <option value="Sevilla">Sevilla</option>
+                                <option value="Soria">Soria</option>
+                                <option value="Tarragona">Tarragona</option>
+                                <option value="Tenerife">Tenerife</option>
+                                <option value="Teruel">Teruel</option>
+                                <option value="Toledo">Toledo</option>
+                                <option value="Valencia">Valencia</option>
+                                <option value="Valladolid">Valladolid</option>
+                                <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                                <option value="Zamora">Zamora</option>
+                                <option value="Zaragoza">Zaragoza</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Tipo de noticia</legend>
+                        <br>
+
+                        <p>
+                            <input class="check" type="radio" name="estudios"><span> Internacional</span>
+                        </p>
+                        <p>
+                            <input class="check" type="radio" name="estudios"><span> Nacional</span>
+                        </p>
+                        <p>
+                            <input class="check" type="radio" name="estudios"><span> Sociedad</span>
+                        </p>
+                        <p>
+                            <input class="check" type="radio" name="estudios"><span> Entretenimiento</span>
+                        </p>
+                        <p>
+                            <input class="check" type="radio" name="estudios"><span> Deportes</span>
+                        </p>
+                        <p>
+                            <input class="check" type="radio" name="estudios"><span> Otros</span>
+                        </p>
+
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Noticia</legend>
+
+                        <p class="bloque">
+                            <label for="mensaje">Escribe tu noticia</label>
+                            <textarea name="Mensaje" id="mensaje" rows="4" required></textarea><span
+                                class="barra"></span>
+                        </p>
+                        <p class="bloque">
+                            <label for="archivo">Sube tu noticia (PDF,WORD,JPG)</label>
+                            <input type="file" name="Archivo" id="archivo">
+                        </p>
+
+                    </fieldset>
+
+                    <p class="bloque">
+                        <button type="submit">Enviar</button><span class="barra"></span>
+                    </p>
+                    <p class="bloque">
+                    <input class="check" type="checkbox" name="check" value="Si" required><span> He leído y acepto la <a href="">Política de Privacidad</a>.</span>
+                    </p>
+                    <br>
+
+                    <p class="bloque">Tras pulsar el botón ENVIAR recibirás un mensaje de correo electrónico,
+                        confirmándote que hemos recibido la noticia. Gracias</p>
+
+
+
+                </form>
+
+            </div>
+
+            <div class="info">
+
+                <h4>Más información:</h4>
+                <ul>
+                    <p>También pueden ponerse en contacto con nosotros a través de los siguientes métodos:</p>
+                    <li><i class="fas fa-map-marker-alt"></i><a class="extra" href=""> C/ Bruno abundez, 37</a> </li>
+                    <li><i class="fas fa-envelope-open-text"></i><a class="extra"
+                            href="mailto:grupolenguajes@gmail.com"> grupolenguajes@gmail.com</a> </li>
+                    <li><i class="fas fa-phone"></i><a class="extra" href="tel:+34666666666"> +34 666 666 666</a> </li>
+                    <br>
+                    <p><a class="extra" href="index.html">NombreEmpresa.com</a></p>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div class="container-footer">
+                <div class="footer">
+                    <div class="copyrigth">
+                        © 2021 Todos los Derechos Reservados | Grupo Lenguajes
+                    </div>
+                    <div class="information">
+                        <a href="#">Información Compañía</a>
+                        | <a href="#">Politica de Privacidad</a>
+                        | <a href="#">Términos y Condiciones</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-responsive-form">
+                <div class="text">
+                    Encuentranos en:
+                    <div class="imagenes-responsive">
+                        <img src="imagenes/facebook.png" alt="" class="img-responsive"><a href=""></a></img>
+                        <img src="imagenes/google.png" alt="" class="img-responsive"><a href=""></a></img>
+                        <img src="imagenes/instagram.png" alt="" class="img-responsive"><a href=""></a></img>
+                        <img src="imagenes/linkedin.png" alt="" class="img-responsive"><a href=""></a></img>
+                        <img src="imagenes/pinterest.png" alt="" class="img-responsive"><a href=""></a></img>
+                        <img src="imagenes/twitter.png" alt="" class="img-responsive"><a href=""></a></img>
+                        <img src="imagenes/youtube.png" alt="" class="img-responsive"><a href=""></a></img>
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
