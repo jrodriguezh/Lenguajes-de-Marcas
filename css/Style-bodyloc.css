@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 
-body-loc {
+.body-loc {
     font-family: 'Crimson Pro', serif;
     background: white;
     background: white;
 }
 
-body-loc .logo {
+.body-loc .logo {
     float: left;
     margin: 5px;
     width: 105px;
 }
 
-body-loc .logo img {
+.body-loc .logo img {
     width: 100%;
 }
 
@@ -34,11 +34,31 @@ body-loc .logo img {
     margin-right: auto;
 }
 
+.cont-local{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+           
+}
+
+.calle{
+    padding: 10px;
+    margin-bottom: 40px;
+    box-shadow: 5px 10px #202020;
+    background-color: cornflowerblue;
+    color: white;
+        
+}
+
 h2 {
     /*font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-weight: 600;
     color: #0c0908;
+    
+    
 }
 
 p {
@@ -49,67 +69,3 @@ p {
     color: #0b1957;
 }
 
-#Localizacion {
-    position: relative;
-    background-image: "imagenes/localizacion2.png";
-    text-align: right;
-    border-bottom: solid;
-    border-bottom-color: rgb(133, 131, 131);
-    width: 1000px;
-    height: 50px;
-}
-
-#quienessomos {
-    position: relative;
-    background: linear-gradient(to left, #ffff, rgba(163, 237, 250, 0.6));
-    border-top: solid;
-    border-right: solid;
-    border-color: rgb(133, 131, 131);
-    width: 950px;
-    height: 70px;
-}
-
-#descripcion {
-    position: absolute;
-    background: linear-gradient(to left, #ffff, rgba(163, 237, 250, 0.6));
-    border-bottom: solid;
-    border-left: solid;
-    border-color: rgb(133, 131, 131);
-    width: 60%;
-    height: 50px;
-    top: 428px;
-    left: 350px;
-}
-
-#redessociales {
-    position: relative;
-    background: linear-gradient(to left, #ffff, rgba(163, 237, 250, 0.6));
-    border-bottom: solid;
-    border-left: solid;
-    border-color: rgb(133, 131, 131);
-    width: 950px;
-    height: 40px;
-}
-
-#redes {
-    position: absolute;
-    background: linear-gradient(to left, #ffff, rgba(163, 237, 250, 0.6));
-    border-bottom: solid;
-    border-right: solid;
-    border-color: rgb(133, 131, 131);
-    text-align: center;
-    width: 60%;
-    height: 60px;
-    top: 510px;
-    left: 240px;
-}
-
-#datos {
-    position: relative;
-    background: linear-gradient(to left, #ffff, rgba(163, 237, 250, 0.6));
-    border-top: solid;
-    border-right: solid;
-    border-color: rgb(133, 131, 131);
-    width: 950px;
-    height: 80px;
-}
