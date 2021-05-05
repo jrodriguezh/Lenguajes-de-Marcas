@@ -20,6 +20,19 @@ body-loc .logo img {
     width: 100%;
 }
 
+.localizacion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    color: rgb(20, 22, 22);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 h2 {
     /*font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
